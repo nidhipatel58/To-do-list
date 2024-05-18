@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    font-family: 'Poppins';
+    align-items: center;
+    height: 100vh;
+    background-color: aliceblue;
+    
+}
+
+.form {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    font-weight: 100;
+    color: black;   
+    font-size:18px;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+button {
+    padding: 10px;
+    background-color:transparent;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {  
+    background-color:transparent;
+} 
+
+.custom-card {
+    max-width: 450px;
+    margin: 0 auto;
+    background-color: #fff;
+    border:2px solid #ccc;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 5px;
+}
+
